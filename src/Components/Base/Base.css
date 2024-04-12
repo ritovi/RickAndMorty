@@ -1,0 +1,39 @@
+.base {
+    width: 45%;
+    min-width: 320px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 1em 2em 2em; 
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 2em;
+
+}
+
+.base__name{
+    text-align: center;
+    color: green;
+    font-size: 1.8rem;
+    margin-bottom: 0.8em;
+}
+
+.base__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.4em;
+}
+
+.base__item{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.5em;
+}
+
+.base__label{
+    font-weight: 500;
+}
+
+.base__value{
+    color : #999;
+    font-weight: 300;
+}

@@ -1,0 +1,47 @@
+.app{
+    background-color: #073138;
+    color: white;
+    height: 100%;
+}
+
+.app__resident{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.app__header{
+    height: 140px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center; align-items: center;
+    margin-bottom: 30px;
+    background-image: url("bg7.jpg");
+    background-size: cover;
+    font-family: "Creepster", system-ui;
+   
+
+}
+h1{
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+}
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem; 
+      letter-spacing: 3px;
+    }
+    .app__header{
+        background-size: auto;
+        background-position: 20px;
+        height: 200px;
+    }
+  }
+
+.app__error{
+    height: 100vh;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Creepster", system-ui;
+}
